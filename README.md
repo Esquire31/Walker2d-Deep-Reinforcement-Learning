@@ -21,27 +21,7 @@ Policy-based methods can handle high-dimensional or continuous action spaces mor
 These methods combine value-based and policy-based methods by using one neural network (the actor) to choose actions and another (the critic) to evaluate these actions. Example: Deep Deterministic Policy Gradient (DDPG).
 
 ### The REINFORCE Algorithm
-REINFORCE is a Monte Carlo policy gradient method that updates the policy parameters to maximize the expected return. The policy gradient theorem forms the basis of this method:
-
-∇J(θ)=E 
-π 
-θ
-​
- 
-​
- [∇ 
-θ
-​
- logπ 
-θ
-​
- (a∣s)G 
-t
-​
- ]
-
-where \( G_t \) is the return following time step \( t \).
-
+REINFORCE is a Monte Carlo policy gradient method that updates the policy parameters to maximize the expected return.
 REINFORCE updates the policy by computing the gradient of the expected return with respect to the policy parameters and performing gradient ascent.
 
 ## Installation
@@ -91,6 +71,12 @@ python train/main.py
 
 ## Results
 The learning curve showing the episode returns over 5000 episodes is saved as `learning_curve.png`.
+
+### Example of the Initial Stage of Learning
+![App Screenshot](https://github.com/Esquire31/Walker2d-Deep-Reinforcement-Learning/blob/main/Examples/mujoco%202024-07-13%2012-22-44.mp4)
+
+### Example of the Curve
+![App Screenshot](https://github.com/Esquire31/Walker2d-Deep-Reinforcement-Learning/blob/main/Examples/learning_curve.png)
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
