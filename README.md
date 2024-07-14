@@ -73,7 +73,7 @@ python train/main.py
 The learning curve showing the episode returns over 5000 episodes is saved as `learning_curve.png`.
 
 ### Example of the Initial Stage of Learning
-![App Screenshot](https://github.com/Esquire31/Walker2d-Deep-Reinforcement-Learning/blob/main/Examples/mujoco%202024-07-13%2012-22-44.mp4)
+![App Screenshot](https://github.com/Esquire31/Walker2d-Deep-Reinforcement-Learning/blob/main/Examples/mujoco%202024-07-13%2012-22-44.gif)
 
 ### Example of the Curve
 ![App Screenshot](https://github.com/Esquire31/Walker2d-Deep-Reinforcement-Learning/blob/main/Examples/learning_curve.png)
