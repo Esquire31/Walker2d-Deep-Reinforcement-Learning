@@ -1,5 +1,11 @@
 # Walker2d-Deep-Reinforcement-Learning
 
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Deep Learning](https://img.shields.io/badge/deep%20learning-purple)
+![Gymnasium](https://img.shields.io/badge/gymnasium-orange)
+![PyTorch](https://img.shields.io/badge/pytorch-red)
+
 ## Project Description
 This project demonstrates the implementation of a policy-gradient-based method called REINFORCE from scratch, a fundamental Deep Reinforcement Learning (DRL) algorithm. The primary goal is to train a robot to learn how to walk using the Walker2d environment from Gymnasium (formerly OpenAI Gym).
 
