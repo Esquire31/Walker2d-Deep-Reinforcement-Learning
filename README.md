@@ -23,7 +23,22 @@ These methods combine value-based and policy-based methods by using one neural n
 ### The REINFORCE Algorithm
 REINFORCE is a Monte Carlo policy gradient method that updates the policy parameters to maximize the expected return. The policy gradient theorem forms the basis of this method:
 
-\[ \nabla J(\theta) = \mathbb{E}_{\pi_\theta} [ \nabla_\theta \log \pi_\theta (a|s) G_t ] \]
+∇J(θ)=E 
+π 
+θ
+​
+ 
+​
+ [∇ 
+θ
+​
+ logπ 
+θ
+​
+ (a∣s)G 
+t
+​
+ ]
 
 where \( G_t \) is the return following time step \( t \).
 
