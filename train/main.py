@@ -4,7 +4,7 @@ from trainer import ReinforceTrainer
 import numpy as np
 import matplotlib.pyplot as plt
 
-# WRITE YOUR CODE HERE
+# Hyperparameters
 n_episodes = 5000
 hidden_size1 = 512
 hidden_size2 = 512
@@ -23,6 +23,7 @@ agent = ReinforceAgent(obs_dim, action_dim, hidden_size1, hidden_size2, learning
 trainer = ReinforceTrainer(env, agent, n_episodes)
 episode_returns = trainer.train()
 
+# Plotting the result
 plt.plot(np.arange(len(episode_returns)),
 episode_returns)
 plt.title('Episode returns')
